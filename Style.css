@@ -1,0 +1,413 @@
+
+html,body{
+
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ margin: 0;
+ padding: 0;
+ width: 100%;
+ height: 100%;
+
+
+
+}
+
+.container{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 70%;
+    width: 80%;
+
+
+
+  
+
+
+}
+
+
+.carte1{
+
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ border-radius: 7%;
+ color: white;
+ font-family: hanken grotesk;
+ background: linear-gradient( to top, hsl(241, 81%, 54%), hsl(252, 100%, 67%));
+ height: 100%;
+ width: 30%;
+ padding-left:5% ;
+ padding-right: 5%;
+ z-index: 100;
+
+
+}
+
+.paragraphe{
+
+ text-align: center;
+ color:  hsl(241, 100%, 89%);
+ font-size: 18px;
+
+}
+
+.sscore{
+
+ font-size: 50px;
+ margin: 0 0 0 0;
+
+
+
+}
+
+.of{
+
+ color:hsl(241, 100%, 89%) ;
+
+
+}
+
+.hh{
+
+    display: flex;
+    flex-direction: column;   
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+
+
+
+}
+
+.minititre{
+
+ font-size: 15px;
+
+}
+
+.outer{
+
+ width: 340%;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ height: 60%;
+ box-shadow:1% 1% 1% -1% rgba(0,0,0,0.15) ;
+ border-radius: 50%;
+ padding-top: 30%;
+ margin-top:20% ;
+ margin-bottom: 0;
+ padding-bottom:30% ;
+ position: relative;
+
+}
+.inner{
+
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;  
+ width: 93%;
+ height: 100%;
+ box-shadow:1% 1% 1% -1% rgba(0,0,0,0.15);
+
+ border-radius: 50%;
+ margin: 0;
+ padding: 10% 0 10% 0;
+ background: linear-gradient( to bottom,  hsla(256, 72%, 46%, 1) , hsla(241, 72%, 46%,3%));
+
+
+
+
+}
+
+.score{
+
+ text-align: center;
+ align-items: center;
+ justify-content: center;
+ border-radius: 50%;
+ transition: opacity 0.3s;
+ width: 100%;
+ height: 150%;
+ padding-top: 20%;
+ padding-bottom: 20%;
+ margin: 0;
+ 
+
+}
+
+
+.score:hover{
+
+ opacity:0.8;
+
+
+
+}
+
+
+.carte2{
+
+
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    background-color: hsl(0, 0%, 100%);
+    box-shadow: 30px 50px 20px -10px hsla(252, 100%, 67%,5%);
+    border-radius: 0% 5% 5% 0%;
+    position:static;
+    z-index: 0;
+    width: 40%;
+    height:100% ;
+
+
+}
+
+.text{
+
+
+ margin-left: 20%;
+ font-family:Hanken Grotesk;
+ width: 80%;
+ height: 100%;
+ display: flex;
+ flex-direction: column;
+ justify-content: start;
+ align-items: start;
+
+}
+
+.grade{
+
+ color:  hsl(224, 30%, 27%);
+ 
+
+}
+
+.sur{
+
+ color: hsl(221, 100%, 96%);
+
+}
+
+
+.Reaction{
+
+  background-color: hsla(0, 100%, 67%,20%);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 70%;
+  margin-top: 8%;
+  height: 10%;
+  border-radius: 10px 10px 10px 10px;
+  padding-right: 5%;
+}
+
+
+
+.Memory{
+
+    background-color:hsla(39, 100%, 56%,20%);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 70%;
+    margin-top: 8%;
+    height: 10%;
+    border-radius: 10px 10px 10px 10px;
+    padding-right: 5%;
+  
+  
+}
+.Verbal{
+
+    background-color:  hsla(166, 100%, 37%,20%);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 70%;
+    margin-top: 8%;
+    height: 10%;
+    border-radius: 10px 10px 10px 10px;
+    padding-right: 5%;
+  
+}
+
+.Visual{
+
+    background-color:  hsla(234, 85%, 45%,20%);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 70%;
+    margin-top: 8%;
+    height: 10%;
+    border-radius: 10px 10px 10px 10px;
+    padding-right: 5%;
+  
+  
+}
+
+
+.r1{
+
+ display: flex;
+ flex-direction: row;
+ align-items:center ;
+ justify-content: space-between;
+ height: 10%;
+ border-radius: 10px 10px 10px 10px;
+ padding-right: 5%;
+ padding-left: 5%;
+
+
+
+
+}
+
+
+.button{
+  
+    
+    margin-left: 2%;
+    margin-bottom: 12%;
+    width:55%;
+    height: 60%;
+    background: linear-gradient( to top, hsl(241, 81%, 54%), hsl(252, 100%, 67%));
+    cursor: pointer;
+    border:none;
+    border-radius: 30px;
+    color: white;
+    font-family:Hanken Grotesk;
+    transition: opacity 0.2s;
+
+}
+
+.button:hover{
+
+ opacity: 0.8;
+ 
+ 
+
+
+}
+
+.cercle{
+
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ position: absolute;
+ left: -5%;
+ top: -105%;
+ z-index: 1000;
+ 
+
+
+}
+
+circle{
+
+ fill: none;
+ stroke: url(#GradientColor);
+ stroke-width: 3%;
+ stroke-dasharray: 600;
+ stroke-dashoffset: 10;
+ animation: circle 4s forwards;
+ stroke-linecap: round;
+ 
+}
+
+
+@keyframes circle{
+
+ to {
+
+   stroke-dashoffset: 1200;
+
+
+
+ }
+ 
+
+}
+
+
+
+@media (max-width:700px) {
+    
+
+
+   html,body{
+
+    flex-direction: column;
+
+
+
+   }
+
+  .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+  }
+
+
+   .carte1{
+     width: 120%;
+     height: 60%;
+    }
+    .carte2{
+
+      width: 120%;
+
+    }
+
+
+
+}
+
+
+
+
+@media (min-width:701px) and (max-width:1000px){
+
+    
+    
+       .carte1{
+         width: 50%;
+         height: 80%;
+    
+        }
+        .carte2{
+    
+          width: 50%;
+          height: 80%;
+    
+        }
+
+
+
+
+
+}
+
+
+

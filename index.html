@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+    <link rel="stylesheet" href="Style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&family=Outfit:wght@400;600&display=swap" rel="stylesheet">
+
+
+    <title>Frontend Mentor | Results summary component</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution { font-size: 11px; text-align: center; }
+      .attribution a { color: hsl(228, 45%, 44%); }
+    </style>
+  </head>
+  <body>
+
+  
+  
+    
+    <div class="container">
+      <div class="carte1"> 
+        <div class="hh"> 
+          <h1 class="minititre" style="color: hsl(221, 100%, 96%); font-size: 14px;">Your Result</h1>
+          <div class="outer">
+
+            <svg class="cercle" xmlns="http://www.w3.org/2000/svg" version="1.1"  style=" width: 500px; height:700px;">
+              <defs>
+                 <linearGradient id="GradientColor">
+                    <stop offset="0%" stop-color=" hsla(0, 0%, 100%,0.8)" />
+                    <stop offset="100%" stop-color="hsla(0, 0%, 100%,1)" />
+                 </linearGradient>
+              </defs>
+              <circle cx="135px" cy="365px" r="120px" stroke-linecap="round"></circle>
+            </svg>
+           <div class="inner">
+              <div class="score">
+              
+                <h1 class="sscore">76</h1> 
+                <span class="of">of 100</span> 
+              </div>
+
+           </div>
+         </div>   
+       </div>
+
+        <div> 
+         <h1 style="text-align: center;">Great</h1> 
+         <p class="paragraphe">You scored higher than 65% of the people who have taken these tests.</p>
+        </div>
+      </div>
+      
+      <div class="carte2">
+        
+       <div class="text">
+          <h1 style="font-size: 22px; color:   hsl(224, 30%, 27%);">Summary</h1>
+
+         <div class="Reaction">
+            <div class="r1">
+              <img  src="assets/images/icon-reaction.svg"> 
+              <span style="color: hsl(0, 100%, 67%); margin-left: 10%;">Reaction</span>
+            </div>
+            <div>
+             <span class="grade"><strong>80</strong> </span> <span class="sur">/ 100</span>
+           </div>
+         </div>
+
+          <div class="Memory">
+            
+            <div class="r1">
+             <img src="assets/images/icon-memory.svg"> 
+             <span style="color: hsl(39, 100%, 56%); margin-left: 10%;">Memory</span>
+            </div>
+            <div>
+             <span class="grade"><strong>92</strong> </span> <span class="sur">/ 100</span>
+           </div>
+         </div>
+            
+          <div class="Verbal">
+            
+            <div class="r1">
+             <img src="assets/images/icon-verbal.svg">
+             <span style="color: hsl(166, 100%, 37%); margin-left: 10%;">Verbal</span>
+            </div>
+            <div>
+             <span class="grade"><strong>61</strong></span> <span class="sur">/ 100</span>
+           </div>
+          </div>
+
+          <div class="Visual">
+           <div class="r1"> 
+             <img src="assets/images/icon-visual.svg"> 
+             <span style="color: hsl(234, 85%, 45%); margin-left: 10%;">Visual</span>
+           </div>
+           <div>
+             <span class="grade">
+              <strong>72</strong>
+             </span>
+             <span class="sur">/ 100</span>
+           </div>
+          </div>
+        </div>
+        <div style="display: flex; justify-content: center;align-items: center; width: 100%;"> 
+          <button class="button">Continue </button> 
+        </div>
+      </div>
+
+    </div>
+  
+  </body>
+
+</html>
